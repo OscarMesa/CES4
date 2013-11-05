@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="315.0" prefWidth="451.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Pane layoutX="0.0" layoutY="0.0" prefHeight="315.0" prefWidth="451.0">
+      <children>
+        <ImageView fitHeight="299.2517844642356" fitWidth="451.0000305175781" layoutX="0.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="file:/C:/Users/Pablo/Documents/NetBeansProjects/21/src/imagenes/fondo.jpg" />
+          </image>
+        </ImageView>
+        <MenuBar layoutX="0.0" layoutY="0.0" prefWidth="451.0">
+          <menus>
+            <Menu mnemonicParsing="false" text="Juego">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Salas" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Opciones">
+              <items>
+                <MenuItem mnemonicParsing="false" text="usuario" />
+                <MenuItem mnemonicParsing="false" text="Info Perfil" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Configuraciones">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Propiedades" />
+                <MenuItem mnemonicParsing="false" text="Perfiles" />
+                <MenuItem mnemonicParsing="false" text="cartas" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Salir" />
+          </menus>
+        </MenuBar>
+        <Text fill="WHITE" fontSmoothingType="LCD" layoutX="39.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="21">
+          <effect>
+            <Bloom>
+              <input>
+                <DropShadow color="WHITE" height="27.07142857142857" offsetX="5.0" offsetY="5.0" radius="7.976190476190476" width="6.833333333333334" />
+              </input>
+            </Bloom>
+          </effect>
+          <font>
+            <Font name="Calibri" size="30.0" />
+          </font>
+        </Text>
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>
